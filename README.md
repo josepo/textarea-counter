@@ -1,2 +1,2 @@
 # textarea-counter
-Angular directive that wraps a textarea with a length limit
+Angular directive that creates a limited-length textarea
