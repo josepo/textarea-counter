@@ -1,0 +1,22 @@
+{
+  "name": "textarea-counter",
+  "version": "1.0.0",
+  "description": "Angular directive that creates a limited-length textarea",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josepo/textarea-counter.git"
+  },
+  "author": "josepo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josepo/textarea-counter/issues"
+  },
+  "homepage": "https://github.com/josepo/textarea-counter#readme",
+  "dependencies": {
+     "express": "^4.14.0"
+   }
+}
