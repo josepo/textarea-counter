@@ -5,6 +5,9 @@
    rows="3">
 </textarea>
 
-<div class='text-right' ng-class='{"text-danger": model.$error.maxlength}'>
-   {{ maxLength - text.length }}
+<div
+   class='text-right'
+   ng-class='{"text-warning": hasWarning, "text-danger": model.$error.maxlength}'>
+
+   {{ maxLength - text.length }} characters left
 </div>
