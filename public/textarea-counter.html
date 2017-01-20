@@ -1,5 +1,10 @@
 <textarea
    class="form-control"
    placeholder="Write your thoughts up to 1k characters."
+   ng-model='text'
    rows="3">
 </textarea>
+
+<div class='text-right' ng-class='{"text-danger": model.$error.maxlength}'>
+   {{ maxLength - text.length }}
+</div>

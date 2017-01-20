@@ -17,18 +17,18 @@
    <script src='sampleapp.js'></script>
 </head>
 
-<body>
+<body ng-controller='main'>
 
-<form name='testForm'>
+<form name='testForm' class='col-xs-offset-3 col-xs-6'>
    <div class="form-group">
       <input type="text" class="form-control" placeholder="Enter your name">
    </div>
 
    <div class='form-group'>
-      <textarea-counter></textarea-counter>
+      <textarea-counter ng-model='data.text' max-length='100'></textarea-counter>
    </div>
 
-   <button type="submit" class="btn btn-default">Submit</button>
+   <button ng-disabled='testForm.$invalid' type="submit" class="btn btn-primary">Submit</button>
 </form>
 
 </body>

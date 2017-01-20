@@ -1,5 +1,5 @@
 # textarea-counter
-Angular directive that creates a limited-length textarea
+Angular directive that creates a limited-length textarea.
 To run:
 
 ```javascript
